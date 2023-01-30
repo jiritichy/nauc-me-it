@@ -1,6 +1,11 @@
 ---
 
 version: '1'
+
+thresholds:
+    error: 10
+    total: 50
+
 tools:
     eslint:
         ext: '.js,.jsx,.ts,.tsx'
