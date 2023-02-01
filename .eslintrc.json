@@ -10,7 +10,7 @@
         "functional/no-return-void": [
             "error", 
             { 
-                "ignoreInferredTypes": true
+                "ignoreInferredTypes"
             }
         ],
         "functional/no-mixed-types": ["warn", { "ignoreInferredTypes": false }],
