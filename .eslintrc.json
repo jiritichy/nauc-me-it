@@ -7,7 +7,7 @@
     "plugins": ["@typescript-eslint", "functional"],
     "extends": ["next/core-web-vitals", "prettier", "plugin:functional/lite"],
     "rules": {
-        "functional/no-return-void": ["error", { "ignoreInferredTypes"> true}],
+        "functional/no-return-void": ["error", { "ignoreInferredTypes": true }],
         "functional/no-mixed-types": ["warn", { "checkInterfaces": false }],
         "functional/immutable-data": ["warn", { "ignorePattern": ["defaultProps"] }]
     },
